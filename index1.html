@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>过渡和变形</title>
+		<style type="text/css">
+			*{
+				padding: 0px;
+				margin: 0px;
+				list-style: none;
+			}
+			body{
+				background-color: #000000;
+			}
+			.box{
+				width: 1200px;
+				margin: auto;
+			}
+			.box li{
+				display: inline-block;
+				margin: 38px;
+			}
+			.box .image{
+				width: 200px;
+				height: 200px;
+				border: 10px solid white;
+				border-radius: 15px;
+				margin-top: 30px;
+				overflow: hidden;
+				-webkit-transition: ease 2s all;
+				-webkit-animation-name: faguang;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-delay: 0s;
+				-webkit-animation-timing-function: ease;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-direction: alternate;
+			}
+			.box h2{
+				color: white;
+				background-color: rosybrown;
+				text-align: center;
+				text-shadow: 2px 2px gray;
+				border-radius: 20px;
+				width: 100px;
+				height: 40px;
+				margin: auto;
+				line-height: 40px;
+				-webkit-animation-name: faguang;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-delay: 0s;
+				-webkit-animation-timing-function: ease;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-direction: alternate;
+			}
+			@-webkit-keyframes faguang{
+				from{
+					box-shadow: 0px 0px 10px 10px green;
+				}
+				to{
+					box-shadow: 0px 0px 10px 10px gold ;
+				}
+			}
+			.box .trans:hover{
+				border-radius: 50%;
+			}
+			.box img{
+				-webkit-transition: ease 2s all;
+				-webkit-transform-origin: left top;
+			}
+			.box .scale:hover img{
+				-webkit-transform: scale(2);
+				
+			}
+			.box .rotate:hover{
+				-webkit-transform: rotate(20deg);
+			}
+			.box .color:hover img{
+				-webkit-filter: grayscale(100%);
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<ul>
+				<li>
+					<h2>实验一</h2>
+					<ul>
+					   <li><a href="sy1-1.html">实验1-1</a></li><br/>
+						<li><a href="sy1-2.html">实验1-2</a></li><br/>
+						<li><a href="sy1-3.html">实验1-3</a></li><br/>
+						<li><a href="sy1-4.html">实验1-4</a></li><br/>
+						<li><a href="sy1-5.html">实验1-5</a></li><br/>
+						<li>富强</li><br/>
+				    </ul>
+				</li>
+				<li>
+					<h2>实验二</h2>
+					<ul>
+						<li><a href="sy2-1.html">实验2-1</a></li><br/>
+						<li><a href="sy2-2.html">实验2-2</a></li><br/>
+						<li><a href="sy2-3.html">实验2-3</a></li><br/>
+						<li><a href="sy2-4.html">实验2-4</a></li><br/>
+						<li>民主</li><br/>
+						<li>文明</li>
+					</ul>
+				</li>
+				<li>
+					<h2>实验三</h2>
+					<ul>
+						<li><a href="sy3-1.html">实验3-1</a></li><br/>
+						<li><a href="sy3-2.html">实验3-2</a></li><br/>
+						<li><a href="sy3-3.html">实验3-3</a></li><br/>
+						<li><a href="sy3-4.html">实验3-4</a></li><br/>
+						<li><a href="sy3-5.html">实验3-5</a></li><br/>
+						<li><a href="sy3-6.html">实验3-6</a></li><br/>
+					</ul>
+				</li>
+				<li>
+					<h2>实验四</h2>
+					<ul>
+						<li><a href="sy4-1.html">实验4-1</a></li><br/>
+						<li><a href="sy4-2.html">实验4-2</a></li><br/>
+						<li>和谐</li><br/>
+						<li>爱国</li><br/>
+						<li></li><br/>
+						<li></li><br/>
+					</ul>
+				</li>
+				<li>
+					<h2>实验五</h2>
+					<ul>
+						<li><a href="sy5.html">实验5</a></li><br/>
+						<li>敬业</li><br/>
+						<li>诚信</li><br/>
+						<li>友善</li><br/>
+						<li></li><br/>
+						<li></li><br/>
+					</ul>
+				</li>
+				<li>
+					<h2>实验六</h2>
+					<ul>
+						<li><a href="sy6.html">PS</a></li><br/>
+					</ul>
+				</li>
+				<li>
+					<h2>实验七</h2>
+					<ul>
+						<li><a href="sy7.html">Animate</a></li><br/>
+					</ul>
+				</li>
+				<li>
+					<h2>实验八</h2>
+					<ul>
+						<li><a href="index.html">个人主页</a></li><br/>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
+
+
